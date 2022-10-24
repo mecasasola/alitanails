@@ -1,0 +1,36 @@
+body{background-image:url(/assets/background-1371403_960_720.jpg);}
+
+a{text-decoration: none;}
+
+ul{list-style-type: none;
+    display: flex;}
+
+    .padd{padding: 10px;}
+    .marg{margin: 10px;}
+
+    header{display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.container{display: grid;
+    grid-template-areas: 
+    "header"
+    "section"
+    "footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;}
+
+section{display: flex;
+    justify-content: space-evenly;}
+
+
+footer{display: flex;
+    justify-content: space-around;}
+
+footer{grid-area: footer;}
+
+
+@media screen {
+    
+}
+
